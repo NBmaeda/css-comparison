@@ -4,8 +4,8 @@
 それぞれ矢印の右に書いてあるファイルでソースが確認できます。
 
 - [Tailwind CSS](https://tailwindcss.com/) → src/App.tsx
-- CSS Modules
-- CSS in JS ([emotion](https://emotion.sh/docs/introduction))
+- CSS Modules → src/components/ButtonCSSModules.tsx, src/components/ButtonCSSModules.tsx
+- CSS in JS ([emotion](https://emotion.sh/docs/introduction)) → src/App.tsx
 
 ![overview.png](./overview.png)
 
