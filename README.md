@@ -1,11 +1,12 @@
 ## 概要
 
-フロントエンドの技術選定のために、以下を比較しました。  
-それぞれ矢印の右に書いてあるファイルでソースが確認できます。
+フロントエンドの技術選定のために、以下の 3 種類を比較しました。  
+それぞれ矢印の後ろに書いてあるファイルでソースが確認できます。
 
 - [Tailwind CSS](https://tailwindcss.com/) → src/App.tsx
-- CSS Modules → src/components/ButtonCSSModules.tsx, src/components/ButtonCSSModules.tsx
-- CSS in JS ([emotion](https://emotion.sh/docs/introduction)) → src/App.tsx
+- CSS Modules
+  → src/components/ButtonCSSModules.tsx, src/components/ButtonCSSModules.tsx
+- CSS in JS ([emotion](https://emotion.sh/docs/introduction)) → src/components/ButtonCSSinJS.tsx
 
 ![overview.png](./overview.png)
 
