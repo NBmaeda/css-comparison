@@ -1,7 +1,7 @@
 import "./App.css";
 import ButtonCSSModules from "./components/ButtonCSSModules";
 import ButtonCSSinJS from "./components/ButtonCSSinJS";
-import ButtonMUI from "./components/ButtinMUI";
+import ButtonMUI from "./components/ButtonMUI";
 
 function App() {
   return (
