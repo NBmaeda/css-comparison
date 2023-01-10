@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="section">
-        <p className="mb-2">Tailwind CSSの場合</p>
+        <p className="mb-1">Tailwind CSSの場合</p>
         <button
           type="button"
           className="py-2 w-1/2 sm:w-auto
@@ -21,15 +21,15 @@ function App() {
         </button>
       </div>
       <div className="section">
-        <p>CSS Modulesの場合</p>
+        <p className="mb-1">CSS Modulesの場合</p>
         <ButtonCSSModules />
       </div>
       <div className="section">
-        <p>CSS in JSの場合</p>
+        <p className="mb-1">CSS in JSの場合</p>
         <ButtonCSSinJS />
       </div>
       <div className="section">
-        <p>Material UIの場合</p>
+        <p className="mb-1">Material UIの場合</p>
         <ButtonMUI />
       </div>
     </div>
