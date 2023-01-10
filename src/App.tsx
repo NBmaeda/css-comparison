@@ -1,6 +1,7 @@
 import "./App.css";
 import ButtonCSSModules from "./components/ButtonCSSModules";
 import ButtonCSSinJS from "./components/ButtonCSSinJS";
+import ButtonMUI from "./components/ButtinMUI";
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
         <button
           type="button"
           className="py-2 w-1/2 sm:w-auto
-          sm:px-8 text-gray-900 bg-white
+          sm:px-8 text-white bg-blue-600
           text-sm font-medium whitespace-nowrap
-          border-2 border-white rounded-md shadow-md
-          focus:outline-none focus:border-indigo-700"
+          rounded-md shadow-md
+          transition-all ease-in-out duration-300
+          hover:bg-blue-800 hover:shadow-lg"
         >
           Button
         </button>
@@ -25,6 +27,10 @@ function App() {
       <div className="section">
         <p>CSS in JSの場合</p>
         <ButtonCSSinJS />
+      </div>
+      <div className="section">
+        <p>Material UIの場合</p>
+        <ButtonMUI />
       </div>
     </div>
   );
